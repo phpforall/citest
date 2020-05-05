@@ -1,0 +1,25 @@
+corona_live_tracker:
+  version: 1.x
+  js:
+    js/corona_live_tracker.js: {} 
+    js/core.js: {}
+    js/charts.js: {}
+    js/maps.js: {}
+    js/dark.js: {}
+    js/animated.js: {}
+    js/worldLow.js: {}
+    js/countries2.js: {}
+    js/world_timeline.js: {}
+    js/total_timeline.js: {}
+    //cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js: {type: external, attributes: { async: true }} 
+    https://cdn.jsdelivr.net/npm/vue/dist/vue.js: {type: external, attributes: { async: true }} 
+    js/app.js: {}
+  css:
+    theme:
+      css/custom_live_tracker.css : {}
+      css/dark.css : {}
+      //cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css: {type: external, minified: true}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
+    
